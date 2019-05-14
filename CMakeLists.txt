@@ -3,6 +3,7 @@ project(Mesosched)
 
 set(CMAKE_CXX_FLAGS "-Werror -g -O0 -std=c++14")
 set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(UNITTEST_EXE "${PROJECT_BINARY_DIR}/unittest/UnitTest")
 set(VALGRIND_EXE "/usr/local/bin/valgrind")
 
